@@ -21,8 +21,7 @@ classifiers = [
 ]
 dependencies = [
     "numpy",
-    "tensorflow>=2.11,<=2.17",
-#    "keras<3",
+    "tensorflow>=2.11,<=2.18",
     "antspyx>=0.6.1",
     "scikit-learn",
     "requests",
@@ -38,4 +37,3 @@ find = { include = ["antspynet","antspynet.*"] }
 
 [tool.setuptools]
 license-files = []
-
